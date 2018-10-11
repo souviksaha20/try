@@ -1,0 +1,56 @@
+body {
+	    margin-bottom: 40px;
+		margin-top: 40px;
+		text-align: center;
+		font-size: 14px;
+		font-family: 'Roboto', sans-serif;
+		background:url(http://www.digiphotohub.com/wp-content/uploads/2015/09/bigstock-Abstract-Blurred-Background-Of-92820527.jpg);
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+		
+		}
+.container2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.table  {
+  width: 800px;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background: black;
+}
+.table > th,
+td {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.table > th {
+  text-align: left;
+}
+.table > thead th {
+  background-color: #55608f;
+}
+.table >  tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.table > tbody td {
+  position: relative;
+}
+.table > tbody td:hover:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -9999px;
+  bottom: -9999px;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: -1;
+}
